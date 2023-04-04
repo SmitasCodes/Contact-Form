@@ -1,0 +1,22 @@
+.form {
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form > div {
+  padding: 10px 0;
+}
+
+.form > div > input {
+  float: right;
+}
+
+.form :nth-child(4) input {
+  float: none;
+}
+
+.form :nth-child(4) {
+  text-align: center;
+}
